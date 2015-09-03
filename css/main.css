@@ -9,28 +9,60 @@ body {
 }
 
 .header {
-	background-color: #85827F;
-	padding: 40px;
-	margin: 0px;
+	height: 160px;
+	background-color: #696969;
+	margin-top: 20px;
 	margin-bottom: 40px;
 	
 }
 
+input {
+	margin-right: 10px;
+	margin-top: 30px;
+}
 
-label {
-	color: darkgray;
+.btn-md {
+	margin-right: 140px;
+	margin-top: 30px;
 }
 
 
-.navbar {
-	margin-top: -100px;
-	margin-left: 750px;
-	
+h1 {
+	font-size: 40px;
+	float: right;
+	margin-right: 375px;
+	margin-top: 30px;
+	color: #90C3D4;
+	background-color: white;
+	padding: 20px;
+	border: 5px solid #B4BCBF;
+}
+
+.welcome {
+	font-size: 20px;
+	margin: -10px 20px 5px 25px;
+	color: white;
+	font-size: 40px;
 	
 }
+
+
+
+h4 {
+	font-size: 40px;
+	float: right;
+	margin-right: -570px;
+	margin-top: 85px;
+	color: white;
+
+	
+}
+
+
 
 ul {
-	display: inline-block;
+	display: inline;
+
 	
 	
 }
@@ -41,13 +73,16 @@ ul li {
 	list-style-type: none;
 	background-color: #F58427;
 	border-radius: 7px; 
-	width: 100px;
+	
 	text-align: center;
-	font-size: 25px;
-	margin: 3px;
+
+	margin: 22px 13px 10px 20px;
+	padding: 20px;
+	
 }
 
 ul li a {
+	font-size: 18px;
 	color: white;
 	text-decoration: none;
 }
@@ -57,19 +92,189 @@ ul li a {
 	display: none;
 }
 
-form {
-	margin-left: 800px;
-}
 
-.headerbottom {
-	margin-left: 50px;
-}
 
 .images {
 	display: inline-block;
 	text-decoration: none;
-	margin-left: 100px;
+	margin-left: 500px;
+	margin-top: -600px;
+
+	
+}
+
+.enlarge {
+	margin: 30px;
+	border: 10px solid whitesmoke;	
+		
+	
+}
+
+.enlarge:hover {
+	width: 300px;
+	height: auto;
+}
+
+
+.copyright {
+	margin-bottom: -200px;
+	text-align: center;
+	color: white;
+}
+
+.sidebox {
+	color: white;
+	padding: 20px;
+	background-color: #696969;
+	width: 25%;
+	height: 400px;
+	list-style-type: none;
+	display: block;
+	margin-left: 20px;
+	margin-top: 40px;
+	border-radius: 15px;
+	border: 3px solid iv;
+}
+
+
+.sidebox a {
+	color: whitesmoke;
+	
+	
+}
+
+.featured {
+	color: #F58427;
+	margin-left: 30px;
+	margin-top: 45px;
+	font-size: 20px;
+	text-decoration: underline;
 	
 }
 
 
+.placeordernow {
+	background-color: #F58427;
+	text-align: center;
+	width: 50%;
+	margin-left: 30px;
+	margin-top: 200px;
+	font-size: 18px;
+	padding: 8px;
+	opacity: .9;
+	border: 4px dotted gray;
+}
+
+.placeordernow_shop {
+	background-color: #F58427;
+	text-align: center;
+	width: 50%;
+	margin-left: 500px;
+
+	font-size: 18px;
+	padding: 8px;
+	opacity: .9;
+	border: 4px dotted gray;
+}
+
+
+.contactnow {
+	background-color: #F58427;
+	text-align: center;
+	width: 90%;
+	margin-left: 130px;
+	margin-bottom: 450px;
+	font-size: 18px;
+	padding: 18px;
+	opacity: .9;
+	border: 4px dotted gray;
+}
+
+
+
+.etsy {
+	margin-top: 40px
+}
+
+hr {
+	margin-left: 90px;
+}
+
+h5 {
+	margin-left: 30px;
+}
+
+table {
+	margin-left: 40px;
+}
+
+#form {
+	background-color: white;
+	text-align: center;
+	margin-left: 570px;
+	width: 450px;
+	border: 3px dashed #505152;
+	color: #505152;
+	height: 400px;
+	
+}
+
+.register {
+	margin-left: 130px;
+}
+
+#login {
+	margin-top: 15px;
+
+}
+
+
+#logout {
+	margin-topp: 130px;
+}
+
+
+.success {
+	margin: 20px;
+	font-size: 20px;
+	color: white;
+	
+	
+}
+
+.return {
+	margin: 20px;
+	background-color: #F58427;
+	text-decoration: none;
+	width: 20%;
+	padding: 10px;
+	border: 3px solid gray;
+	
+	
+}
+
+
+.submit:hover {
+	background-color: orange;
+}
+
+.navbar {
+	margin-top: 20;
+}
+
+.aboutme {
+	color: white;
+	font-size: 18px;
+	border: 5px solid orange;
+	margin: 50px;
+	margin-top: 200px;
+	margin-right: 60px;
+	padding: 10px;
+	width: 80%;
+
+}
+
+.shopimages {
+	margin-top: 50px;
+	margin-right: 150px;
+}
