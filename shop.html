@@ -18,22 +18,23 @@
    Simple Bliss    
  </title>
 	  
+
 	  
-	  	<div id="navbar" class="navbar-collapse collapse">
-          <div class="navbar-right user-info">Welcome, <span class="user-fullname">First Last</span> <a class="btn btn-default btn-sm">Logout</a></div>
+		   <div id="navbar" class="navbar-collapse collapse">
+          <div class="navbar-right user-info">Welcome, <span class="user-fullname">First </span> <a class="btn btn-default btn-sm">Logout</a></div>
           <form class="navbar-form navbar-right" role="form" id="login-form">
             <div class="form-group">
               <input type="text" placeholder="Email" class="form-control">
             </div>
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
-           
-     <button type="button" class="btn btn-primary btn-md">Login</button>
-		
-	 </div>		  
+            </div>
+            <a class="btn btn-default btn-md">Login</a>
           </form>
         </div><!--/.navbar-collapse -->
-     
+      </div>
+	  
+	    
 	  
 	</head>
 	  
@@ -41,80 +42,167 @@
 	    
 <header>
 	
+		
+<div class="welcome">
+<p>	Welcome! </p>
+			</div>	
+	
 	
 	<div class="header">
 		
-		<p class="title">
+		
 			<h1>
 				<strong>Simple Bliss</strong>
 		</h1>
 		
-		<h4><strong>Welcome! </strong>
-			
-		</h4>
-		</p>
+		<h4>Live, laugh, love!</h4>
+		
+
 
 <!--		
 <P>
 		<img src="LOGO.jpg">
 	</P>
 	-->
-	
-		 <ul class="navbar">
+		<div class="navbar">
+		
+		
+		 <ul >
 			 
-         <li><a href="index.html" alt="home page" class="active"><strong>Home</strong></li>
-			 <li><a href="contact.html" alt="contact page"><strong>Contact</strong></li>
-			 <li><a href="about.html" alt="about page"><strong>About</strong></li>
-			 	<li><a href="shop.html" alt="shop page" class="active">Shop Simple Bliss</li>	 
+			 <li><a href="index.html" alt="home page">Home</a></li>
+			 <li><a href="contact.html" alt="contact page">Contact</a></li>
+			 <li><a href="about.html" alt="about page">About</a></li>
+			 <li><a href="shop.html" alt="shop page"><strong>Shop Simple Bliss</strong></a></li>
          
        </ul>
-		
 
-	
+	</div>
+		
+		
 	</header>
 	
     <body>
 		
 		
+
+		
+		
+		
 		   
-<div>
+<div class="sidebox">
 	
-	<ul>
-		<li class="sidebox"><a href="http://etsy.com" alt="etsy website">Visit us on Etsy</a></li>
-		<li class="sidebox"><a href="http://facebook.com" alt="etsy website">Like us on Facebook</a></li>
-	</ul>
+	
+		<li class="etsy"><a href="http://etsy.com" alt="etsy website"><img src="img/etsy.png" style="height: 50px;width:auto;" hspace="20">  Visit us on Etsy</a></li>
+<br>	<li class="facebook"><a href="http://facebook.com" alt="facebook website"><img src="img/facebook.png" style="height: 50px;width:auto;" hspace="20">  Like us on Facebook</a></li>
+<br>	<li class="pinterest"><a href="http://pinterest.com" alt="pinterest website"><img src="img/pinterest.png" style="height: 50px;width:auto;" hspace="20">  Love us on Pinterest</a></li>
+<br>	<li class="twitter"><a href="http://twitter.com" alt="twitter website"><img src="img/twitter.png" style="height: 50px;width:auto;" hspace="20">  Follow us on Twitter</a></li>
+	
 		</div>	
 		
 
-		
-  <div class="moreimages">
 
+		
+	<div>
+		
+		<p class="placeordernow_shop">Place your order today and get free shipping! Offer ends 9/24</p>		
+
+		
+	<p class="shopimages">
+Shop
+</p>			
 	
-	<ul>
+		<div>
+			
 		
-	<img class="enlarge" src="img/beanie_500x475.png"  style="width: 200px;height: auto">
-	<img class="enlarge" src="img/coaster_500x475.png" style="width: 200px;height: auto">
-	<img class="enlarge" src="img/corkcoaster_500x475.png" style="width: 200px;height: auto">
-	<img class="enlarge" src="img/mini side table_500x475.png" style="width: 200px;height: auto">
-	<img class="enlarge" src="img/wall deco_500x475.png" style="width: 200px;height: auto">
+	
 	  
-
-
-	  </ul>
-	  
+	<img src="img/shop/cards1.png"  style="width: 150px;height: auto">
+	<img src="img/shop/cards2.png"  style="width: 150px;height: auto">
+	<img src="img/shop/cards3.png"  style="width: 150px;height: auto"><br>
+	<img src="img/shop/pillow cover2.png" style="width: 150px;height: auto">
+	<img src="img/shop/pillow cover3.png" style="width: 150px;height: auto">
+	<img src="img/shop/scarf1.png" style="width: 150px;height: auto"><br>
+	<img src="img/shop/scarf2.png" style="width: 150px;height: auto">
+	<img src="img/shop/seahakws beanie1.png" style="width: 150px;height: auto">	
+	<img src="img/shop/seahakws beanie2.png" style="width: 150px;height: auto">	
+		
+		
+	</div>	
+		
+<hr width="70%;"; size="25px;">		
+ 
 		</div>
+
+	 
+
+<hr width="100%">	
+		
+		
+
+		
+		
+		
+<div id="form">
+	<div id="login">
+		<b>Sign up Form</b>
+		
+		
+		
+		<br><br/>
+		
+		<form class="registration" method="get" action="thankyou.html" onsubmit="javascript:return validate ('registration', 'email');" >
+			
+			<p>
+			<label for="name"> Your Name <span> (required, atleast 2 characters) </span></label>
+				<br>
+			<input id="name" name="name" minlength="2" maxlength="128" type="text" placeholder=" Your Name" required>
+		</p>
+		
+		
+		
+			</br></br>
+		<p>
+			<label for="email"> Your Email <span> (valid email required) </span></label>
+			<br>
+			
+			<input id="email" name="email" minlength="@" maxlength="28" type="text" placeholder=" Enter your email" required>
+			
+			<br>
+		
 	
-   
+			<input class="submit" type="submit" value="submit"/>	
+			
+		
+			
+			<br/>
+			
+		</p>
+	
+			<!--<button class="register">Register</button> -->
+			
+				   
+		</form>
+	</div>
+</div>	
+	
+</div>
          
+	
+	
+	
+	
+	
+	
     <footer>
 		
 
 	
  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+		
 
        <!-- <script src="js/vendor/bootstrap.min.js"></script> -->
         <script src="js/vendor/jquery.validate.min.js"></script>
-
+	<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
         <script src="js/main.js"></script>	
 
 <p>
@@ -130,4 +218,8 @@
 		Created by Marie Porciuncula © 2015
 	
 		</p>	 
+		
+		<br>
+		<br>
+		
 </html>

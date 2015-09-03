@@ -112,11 +112,12 @@ ul li a {
 
 .enlarge:hover {
 	width: 300px;
-	height: 400px;
+	height: auto;
 }
 
 
 .copyright {
+	margin-bottom: -200px;
 	text-align: center;
 	color: white;
 }
@@ -155,7 +156,7 @@ ul li a {
 .placeordernow {
 	background-color: #F58427;
 	text-align: center;
-	width: 70%;
+	width: 50%;
 	margin-left: 30px;
 	margin-top: 200px;
 	font-size: 18px;
@@ -164,12 +165,39 @@ ul li a {
 	border: 4px dotted gray;
 }
 
+.placeordernow_shop {
+	background-color: #F58427;
+	text-align: center;
+	width: 50%;
+	margin-left: 500px;
+	margin-top: -400px;
+	font-size: 18px;
+	padding: 8px;
+	opacity: .9;
+	border: 4px dotted gray;
+}
+
+
+.contactnow {
+	background-color: #F58427;
+	text-align: center;
+	width: 90%;
+	margin-left: 130px;
+	margin-bottom: 450px;
+	font-size: 18px;
+	padding: 18px;
+	opacity: .9;
+	border: 4px dotted gray;
+}
+
+
+
 .etsy {
 	margin-top: 40px
 }
 
 hr {
-	margin-right: 240px;
+	margin-left: 90px;
 }
 
 h5 {
@@ -230,7 +258,23 @@ table {
 	background-color: orange;
 }
 
+.navbar {
+	margin-top: 20;
+}
 
+.aboutme {
+	color: white;
+	font-size: 18px;
+	border: 5px solid orange;
+	margin: 50px;
+	margin-top: 200px;
+	margin-right: 60px;
+	padding: 10px;
+	width: 80%;
 
+}
 
-
+.shopimages {
+	margin-top: 50px;
+	margin-right: 150px;
+}
